@@ -1,0 +1,24 @@
+Job Shop CSP with 10 tasks with durations [1..3], tmax=30, 10 before constraints and 1 disjoint constraints (seed=4321)
+T1 T2 T3 T4 T5 T6 T7 T8 T9 T10 
+T1 3
+T2 1
+T3 3
+T4 1
+T5 3
+T6 1
+T7 1
+T8 2
+T9 1
+T10 3
+30
+T1 disjoint T7
+T3 before T10
+T1 before T9
+T1 before T2
+T6 before T2
+T8 before T2
+T4 before T7
+T1 before T3
+T4 before T8
+T7 before T10
+T7 before T3
